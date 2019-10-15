@@ -24,8 +24,8 @@ if(keyboard_check(ord("W")) && place_free(x,y-collision_speed)){
 		//spd_cat=5;
 		hspeed=spd_cat;
 		vspeed=0;
-		sprite_index=spr_right;
 		image_speed=2;
+		sprite_index=spr_right;
 	}else{
 		speed=0;
 		image_speed=0;
